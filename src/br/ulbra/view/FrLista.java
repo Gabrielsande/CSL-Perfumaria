@@ -204,6 +204,12 @@ public class FrLista extends javax.swing.JFrame {
         jLabel13.setFont(new java.awt.Font("SansSerif", 3, 14)); // NOI18N
         jLabel13.setText("Valor");
 
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -424,7 +430,11 @@ public class FrLista extends javax.swing.JFrame {
     } else {
         JOptionPane.showMessageDialog(null, "Digite um produto para procurar.");
     }//GEN-LAST:event_BTNProcurarActionPerformed
-}
+    }
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
         
     
     
